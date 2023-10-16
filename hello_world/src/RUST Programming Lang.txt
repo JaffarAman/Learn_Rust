@@ -1,0 +1,173 @@
+RUST Programming Lang
+CodeEater:
+
+
+00:00 - Intro
+00:23 - What is Rust
+00:58 - Install tools (Rust, VSCode, Rust Extension)
+02:06 - 1) Build Rust Code
+04:11 - 2) Using Cargo to build Rust application
+06:30 - 3) Printing to the console
+08:03 - 4) Scalar variable types (primative variables)
+12:06 - 5) Arrays
+14:03 - 6) Tuples
+15:34 - 7) Functions  
+17:35 - 8) Mutability
+19:09 - 9) Arrays and slices
+23:21 - 10) Strings
+27:55 - 11) If  
+28:45 - 12) For Loops
+29:34 - 13) While Loops
+30:52 - 14) Match Statements (switch statements)
+32:16 - 15) Creating Structs (Classes)
+35:39 - 16) Traits (Interfaces)
+37:49 - 17) Enums
+40:24 - 18) Vectors (dynamic arrays)
+42:21 - 19) Hash Maps
+45:36 - 20) Options
+48:11 - 21) Results
+51:47 - Conclusion
+
+
+
+
+Rust system programming lang
+Rust provide speed , security , concurrency
+
+let num  = 5   /// num is ummutable
+printfln!("{}" , num)
+
+rust main variable immutable hoty hai sub....
+
+
+
+agar variable ko mutable krna hai tw  keyword mut use krna hoga
+
+
+let mut name = "Jaffar"
+name = "Jaffar Aman"
+
+
+const main variable ka name capital main hota hai hamesha
+
+ 
+
+
+
+functions in rust
+
+rust ka program main fn main chalta hai   
+fn main(){
+
+}
+
+
+
+Memory safety ==
+Unassign variable nahi bana sakty rust main hum 
+
+
+variable Scope
+
+{
+	let a = 20
+	println!("{}" , a)  ==> okay
+
+}
+
+	println!("{}" , a)  ==> error 
+
+
+
+
+
+==================
+Signed vs UnSigned  variables
+
+
+=> Signed - Hold both positive and negative values
+=> UNSigned  - Hold only positive values.
+
+ 
+Signed integer
+i8 , i16 , i32 , i64 , iSize
+
+UnSigned Integer
+u8 , u16 , u32 , u64 , uSize
+  
+
+
+Integer Range 
+
+signed
+i8  = > -128 to 127   ==> formula=>  -2^(n-1)  to 2^(n-1) - 1
+
+UnSigned = > u8 => 0 to 255 ==> formula => 2^(n) -1
+
+
+FLoat DataType=>>> simple sirf decimal data ko hold krty hai
+f32
+f64
+
+
+Data Types in Rust Programmin Lang:
+
+There are two data types in Rust
+1) Scalar Data types
+2) compound data type
+
+Scalar data types
+1)Integer
+2)Floating Point NUmber
+3)Char
+4)Boolean
+
+
+Compound Data Types
+1)Array ===> collection of elemenet with the same data types
+2)Tuple ===> same array hi hai bus multi data types store krta hai hamary pass yeh
+
+
+
+
+Condition 
+
+loop
+
+
+
+
+i ==> 2^(n-1) to 2^ (n-1) -1 
+u ==> 2^(n) - 1 
+
+
+
+Rust topic
+variable
+
+
+
+
+
+Cargp - Rust package manager 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
